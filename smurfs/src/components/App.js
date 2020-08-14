@@ -1,14 +1,24 @@
 import React, { Component } from "react";
+import Container from './Card/Container'
+import Form from './Form'
 import "./App.css";
+
+import styled from 'styled-components'
+
+const AppContainer = styled.div`
+text-align: center;
+padding: 5%;
+`
+
 class App extends Component {
+
   render() {
     return (
-      <div className="App">
-        <h1>SMURFS! W/Redux</h1>
-        <div>Welcome to your state management version of Smurfs!</div>
-        <div>Start inside of your `src/index.js` file!</div>
-        <div>Have fun!</div>
-      </div>
+      <AppContainer>
+        <h2>Your Smurfs!</h2>
+        <Form />
+        <Container />
+      </AppContainer>
     );
   }
 }
