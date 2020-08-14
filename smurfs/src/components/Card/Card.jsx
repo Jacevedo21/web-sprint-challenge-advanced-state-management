@@ -11,6 +11,8 @@ const StyledDiv = styled.div`
     padding: 20px;
     border-radius: 50vw;
     background-color: lightblue;
+    margin: 10px;
+    width: 150px;
 `
 
 

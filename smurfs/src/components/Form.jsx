@@ -6,9 +6,10 @@ import { connect } from 'react-redux'
 import styled from 'styled-components'
 
 const StyledForm = styled.div`
-    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
     margin: auto;
-
 `
 
 const Form = () => {
